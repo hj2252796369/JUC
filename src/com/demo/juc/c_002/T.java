@@ -13,7 +13,7 @@ import com.sun.xml.internal.bind.v2.model.runtime.RuntimeBuiltinLeafInfo;
  * @create_date 20:48 2020-06-07
  */
 public class T implements Runnable {
-    private int count = 10;
+    private  int count = 10;
 
     @Override
     public synchronized void run() {
